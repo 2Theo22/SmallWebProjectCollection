@@ -10,7 +10,6 @@ body{
     background: linear-gradient(#ee8695, #333f58);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    border: 2px solid red;
     height: 100dvh;
     width: 100vw;
     margin: 0;
@@ -42,6 +41,10 @@ button{
     margin: min(0.5em, 1%);
 }
 
+input{
+    margin: min(0.25em, 0.5);
+}
 input, button{
     font-size: clamp(1rem, 1.5rem, 2rem);
 }
+
