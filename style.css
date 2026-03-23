@@ -4,6 +4,44 @@ body{
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
+    font-family: "Lato", serif;
+    font-style: normal;
+    background: linear-gradient(#ee8695, #333f58);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 2px solid red;
+    height: 100dvh;
+    width: 100vw;
+    margin: 0;
 }
 
+h1, p, label, button{
+    color: white;
 
+}
+
+h1, p{
+    margin: min(1em, 2%);
+}
+
+label{
+    margin: min(0.5em, 1%);
+}
+
+h1{
+    font-size: clamp(4rem, 5rem, 5.5rem);
+}
+
+p, label{
+    font-size: clamp(2rem, 2.5rem, 3rem);
+}
+
+button{
+    background-color: #333f58;
+    margin: min(0.5em, 1%);
+}
+
+input, button{
+    font-size: clamp(1rem, 1.5rem, 2rem);
+}
