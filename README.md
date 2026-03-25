@@ -1,3 +1,7 @@
+# Small Web Project Collection
+## About
+<p>Some small Projects like visitor counters, Number Generators, etc. <br> Those projects that are to small for their own repository </p>
+
 # Random Number Generator 
 
 ## About
@@ -18,3 +22,8 @@
 
 ## Preview
 <img src="preview/randommumber.gif" alt="preview">
+
+# Visit counter
+
+## Abbout
+Counts how many times you have clicked onto the website. Only counts the visits on the same browser
